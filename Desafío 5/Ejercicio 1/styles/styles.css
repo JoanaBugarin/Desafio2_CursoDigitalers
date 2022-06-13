@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+main {
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+    border-top: 40px solid #0a2ff1;
+    width: 1800px;
+}
+
+header {
+    background-image: url('/Ejercicio 1/images/M5-logo-blanco.svg');
+}
+
+nav {
+    padding: 40px;
+    display:flex;
+    align-items: center;
+}
+
+#imglogo {
+    width:5%;
+}
+
+a {
+    font-size: 18pt;
+    text-decoration: none;
+    margin-left:100px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.activo {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #0a2ff1;
+    font-size: 72pt;
+    text-align: center;
+}
+
+p {
+    font-size: 26pt;
+    text-align: center;
+}
+
+img {
+    width: 1800px;
+}

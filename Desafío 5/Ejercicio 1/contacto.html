@@ -5,26 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 1</title>
-    
     <link rel="stylesheet" href="/Ejercicio 1/styles/styles.css">
 </head>
 <body>
-    <main>
-        <header>
-            <nav>
-                <img id="imglogo" src="/Ejercicio 1/images/M5-logo-azul.svg" alt="WH">
-                <a class="activo" href="index.html">HOME</a>
-                <a href="contacto.html">CONTACTO</a>
-            </nav>
-            <h1>
-                ¡Simple, rápido y confiable!
-            </h1>
-            <p>
-                Elegí tu plan de Alojamiento Web sin Impuestos Extra. Facturación en Pesos.
+    <div>
+        <nav>
+            <img id="imglogo" src="/Ejercicio 1/images/M5-logo-azul.svg" alt="WH">
+            <a class="activo navmenor" href="index.html">HOME</a>
+            <a class="navmenor" href="contacto.html">CONTACTO</a>
+        </nav>
+        <div id="contenedor-contact">
+            <p id="primerParrafo" class="parrafoIzq">
+                ¿Querés que nos contactemos con vos?
             </p>
-        </header>
-        <img src="/Ejercicio 1/images/M5-Desafío1-img.png" alt="Cohete despegando">
-    </main>
+            <form action="login.php" method="post">
+                <p id="segParrafo" class="parrafoIzq">Dejanos tu consulta:</p>
+                <label for="nombre">
+                    <strong>Nombre Completo</strong> <span>*</span><br>
+                </label>
+                <input name="nombre" required type="text"><br>
+
+                <label for="email">
+                    <strong>Email</strong> <span>*</span><br>
+                </label>
+                <input required type="email" name="email" id="email" placeholder="micorreo@gmail.com"><br>
+
+                <label for="comentario">
+                    <strong>Comentario</strong> <span>*</span><br>
+                </label>
+                <textarea required name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
+
+                <input id="btnreset" class="boton" type="reset" value="Resetear">
+                <input id="btnenviar" class="boton" type="submit" value="Enviar">            
+            </form>
+        </div>
+    </div>
     <footer>
         <div id="footerImg">
             <h2>¿Por qué debería elegir WH</h2>

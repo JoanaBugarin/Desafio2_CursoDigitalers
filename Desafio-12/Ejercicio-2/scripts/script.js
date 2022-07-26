@@ -1,5 +1,5 @@
-var username = window.prompt("Ingrese su nombre:");
-var password = window.prompt("Ingrese su contraseña:");
+let username = window.prompt("Ingrese su nombre:");
+let password = window.prompt("Ingrese su contraseña:");
 
 if (username == "admin" && password == "1234") {
     document.write("<h1>Bienvenido " + username + "</h1>");
